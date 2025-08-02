@@ -9,7 +9,13 @@ public class PersonagemGame {
     }
 
     public void setSaudeAtual(int saudeAtual) {
-        this.saudeAtual = saudeAtual;
+        if (saudeAtual < 0) {
+            this.saudeAtual = 0;
+        } else if (saudeAtual > 100) {
+            this.saudeAtual = 100;
+        } else {
+            this.saudeAtual = saudeAtual;
+        }
     }
 
     public String getNome() {
@@ -21,16 +27,12 @@ public class PersonagemGame {
     }
 
     public void tomarDano(int quantidadeDeDano) {
-        saudeAtual -= quantidadeDeDano;
-        if (saudeAtual < 0) {
-            saudeAtual = 0;
-        }
+        if (quantidadeDeDano < 0) return; // ignora valores negativos
+        setSaudeAtual(this.saudeAtual - quantidadeDeDano);
     }
 
     public void receberCura(int quantidadeDeCura) {
-        saudeAtual += quantidadeDeCura;
-        if (saudeAtual > 100) {
-            saudeAtual = 100;
-        }
+        if (quantidadeDeCura < 0) return; // ignora valores negativos
+        setSaudeAtual(this.saudeAtual + quantidadeDeCura);
     }
 }
