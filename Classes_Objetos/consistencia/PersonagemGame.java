@@ -1,14 +1,12 @@
-package Classes_Objetos.consistencia;
 
 public class PersonagemGame {
     private int saudeAtual;
     private String nome;
     private String status;
 
-    // Construtor com validação
     public PersonagemGame(int saudeAtual, String nome) {
-        setNome(nome); // Validação do nome
-        setSaudeAtual(saudeAtual); // Validação da saúde e definição do status
+        setNome(nome);
+        setSaudeAtual(saudeAtual);
     }
 
     public int getSaudeAtual() {
@@ -39,7 +37,6 @@ public class PersonagemGame {
         if (nome != null && !nome.isEmpty()) {
             this.nome = nome;
         }
-        // Caso seja nulo ou vazio, mantém o nome atual
     }
 
     public String getStatus() {
