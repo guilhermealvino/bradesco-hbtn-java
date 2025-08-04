@@ -1,4 +1,3 @@
-package Classes_Objetos.Status;
 
 public class PersonagemGame {
     private int saudeAtual;
