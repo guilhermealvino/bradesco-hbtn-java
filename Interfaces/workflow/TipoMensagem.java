@@ -1,4 +1,3 @@
-package Interfaces.workflow;
 
 public enum TipoMensagem {
     AVISO,
