@@ -9,7 +9,7 @@ public class Produto {
     public Consumer<Double> atualizarMarkup = novoMarkup ->
             this.percentualMarkup = novoMarkup;
 
-    public Produto(String nome, double preco) {
+    public Produto(double preco, String nome) {
         this.nome = nome;
         this.preco = preco;
     }
