@@ -12,4 +12,3 @@ public class ProcessadorPedido {
         pedido.setFrete(freteCalculado);
     }
 }
-

@@ -32,4 +32,3 @@ public class Pedido {
         this.frete = frete;
     }
 }
-
