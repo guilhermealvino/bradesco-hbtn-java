@@ -11,10 +11,9 @@ public class ProcessadorVideo {
     public void processar(Video video) {
         for (CanalNotificacao canal : canais) {
             canal.notificar(new Mensagem(
-                video.getArquivo() + " - " + video.getFormato(),
-                TipoMensagem.LOG
+                    video.getArquivo() + " - " + video.getFormato(),
+                    TipoMensagem.LOG
             ));
         }
     }
 }
-

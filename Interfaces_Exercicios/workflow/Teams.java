@@ -4,4 +4,3 @@ public class Teams implements CanalNotificacao {
         System.out.printf("[TEAMS] {%s} - %s%n", mensagem.getTipoMensagem(), mensagem.getTexto());
     }
 }
-

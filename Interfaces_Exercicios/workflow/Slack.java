@@ -4,4 +4,3 @@ public class Slack implements CanalNotificacao {
         System.out.printf("[SLACK] {%s} - %s%n", mensagem.getTipoMensagem(), mensagem.getTexto());
     }
 }
-

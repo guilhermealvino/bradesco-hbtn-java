@@ -4,4 +4,3 @@ public class Email implements CanalNotificacao {
         System.out.printf("[EMAIL] {%s} - %s%n", mensagem.getTipoMensagem(), mensagem.getTexto());
     }
 }
-
