@@ -25,13 +25,4 @@ public class Produto {
     public double getPercentualMarkup() {
         return percentualMarkup;
     }
-
-    @Override
-    public String toString() {
-        return "Produto{" +
-                "nome='" + nome + '\'' +
-                ", preco=" + preco +
-                ", percentualMarkup=" + percentualMarkup +
-                "%}";
-    }
 }
