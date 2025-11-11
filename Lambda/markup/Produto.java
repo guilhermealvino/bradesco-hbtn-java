@@ -1,7 +1,7 @@
 public class Produto {
     private String nome;
     private double preco;
-    private double percentualMarkup = 10.0; // valor inicial padrão (10%)
+    private double percentualMarkup = 10.0;
 
     public Supplier<Double> precoComMarkup = () ->
             preco + (preco * percentualMarkup / 100);
