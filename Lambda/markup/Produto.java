@@ -1,3 +1,6 @@
+import java.util.function.Supplier;
+import java.util.function.Consumer;
+
 public class Produto {
     private String nome;
     private double preco;
