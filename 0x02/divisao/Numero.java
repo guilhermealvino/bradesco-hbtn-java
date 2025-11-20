@@ -5,7 +5,7 @@ public class Numero {
         try {
             resultado = a / b;
         } catch (ArithmeticException e) {
-            System.out.println("Divisão por zero não é permitida.");
+            System.out.println("Nao eh possivel dividir por zero");
             return;
         } finally {
             System.out.println(a + " / " + b + " = " + (b != 0 ? resultado : 0));
