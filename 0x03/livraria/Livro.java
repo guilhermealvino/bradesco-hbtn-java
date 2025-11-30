@@ -1,8 +1,5 @@
 
-package livraria;
-
-import livraria.exceptions.AutorInvalidoException;
-import livraria.exceptions.LivroInvalidoException;
+// No package declaration - default package
 
 public class Livro {
     private String titulo;

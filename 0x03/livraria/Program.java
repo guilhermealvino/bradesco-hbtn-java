@@ -1,10 +1,11 @@
+// No package declaration - default package
+
 import java.util.Locale;
+
+// Import classes from default package
 
 public class Program {
     public static void main(String[] args) {
-
-        try {
-            Livro livro1 = new Livro(
                     "As barbas do imperador: D. Pedro II",
                     "Lilia Moritz Schwarcz",
                     56);

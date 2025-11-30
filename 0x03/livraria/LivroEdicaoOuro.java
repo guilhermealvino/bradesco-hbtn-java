@@ -1,4 +1,4 @@
-package livraria;
+// No package declaration - default package
 
 public class LivroEdicaoOuro extends Livro {
     
